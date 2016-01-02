@@ -1,0 +1,233 @@
+/* Base */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.first-screen {
+  background: url("../images/part1.png") no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.first-screen .header {
+  padding: 20px 7%;
+}
+.first-screen .header a {
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: text-bottom;
+  color: #ffffff;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+.first-screen .header nav {
+  float: right;
+}
+.first-screen .header nav ul,
+.first-screen .header nav ul li {
+  display: inline;
+  padding: 0 10px;
+}
+.first-screen .header nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.7rem;
+}
+.first-screen .header nav a:hover {
+  border: 1px solid  #fff;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+.first-screen .header:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.first-screen .text-and-form {
+  text-align: center;
+  margin-top: 7%;
+}
+.first-screen .text-and-form h1 {
+  color: #fff;
+  font-weight: 100;
+}
+.first-screen .text-and-form p {
+  color: #fff;
+  padding-bottom: 20px;
+}
+.first-screen .text-and-form input {
+  border: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  height: 35px;
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+.first-screen .text-and-form a {
+  background-color: #6782c2;
+  color: #fff;
+  text-decoration: none;
+  border-top: 2px solid #6782c2;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 11px;
+  margin-left: -7px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.first-screen #arrow {
+  display: block;
+  text-align: center;
+  padding: 2% 0;
+}
+.features {
+  background: #fff;
+  background-size: contain;
+  position: relative;
+  padding: 0 7%;
+}
+.features h2 {
+  text-align: center;
+  font-weight: 100;
+  padding: 6% 0 4% 0;
+}
+.features .column-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 4%;
+}
+.features .column-text h3 {
+  padding-bottom: 3%;
+}
+.features .column-text h3 img {
+  padding: 0 3% 0 0;
+}
+.features .column-image {
+  display: table-cell;
+  padding-bottom: 5%;
+}
+.tracking {
+  background: url("../images/part2.jpg");
+  background-size: cover;
+  position: relative;
+  padding: 5% 7% 0 7%;
+}
+.tracking .column-text {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+  padding-left: 4%;
+}
+.tracking .column-text h3 {
+  padding-bottom: 3%;
+}
+.tracking .column-text h3 img {
+  padding: 0 3% 0 0;
+}
+.tracking .column-image {
+  display: table-cell;
+}
+.applications {
+  background: #fff;
+  background-size: contain;
+  position: relative;
+  padding: 7% 7%;
+}
+.applications .column-text {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 4%;
+}
+.applications .column-text h3 {
+  padding-bottom: 3%;
+}
+.applications .column-text h3 img {
+  padding: 0 3% 0 0;
+}
+.applications .column-image {
+  display: table-cell;
+}
+.applications .column-image img {
+  float: right;
+  max-width: 500px;
+}
+.reviews {
+  text-align: center;
+}
+.reviews h2 {
+  padding: 2% 0;
+}
+.reviews img {
+  padding-bottom: 2%;
+}
+.reviews p {
+  color: darkgray;
+  font-size: 1.1rem;
+  padding-bottom: 1%;
+}
+.reviews h4 {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  padding-bottom: 1%;
+}
+.sign-form {
+  background: url("../images/backgraund-sign.jpg");
+  text-align: center;
+  padding: 5% 0;
+}
+.sign-form h1 {
+  color: #fff;
+  font-weight: 100;
+}
+.sign-form p {
+  color: #fff;
+  padding-bottom: 20px;
+}
+.sign-form input {
+  border: none;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  height: 35px;
+  font-size: 0.8rem;
+  padding-left: 10px;
+}
+.sign-form a {
+  background-color: #6782c2;
+  color: #fff;
+  text-decoration: none;
+  border-top: 2px solid #6782c2;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 11px;
+  margin-left: -7px;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+footer {
+  padding: 20px 7%;
+}
+footer a {
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: text-bottom;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+}
+footer .footer-text {
+  display: inline-block;
+  margin: 0 20%;
+}
+footer .footer-text h4 {
+  display: inline-block;
+  line-height: 50px;
+  vertical-align: text-bottom;
+  padding: 0 20px;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+footer .footer-text img {
+  display: inline-block;
+}
