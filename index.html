@@ -4,79 +4,109 @@
     <title>Invoicer</title>
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/popup.css">
     <meta name="description" content="">
     <meta name="keywords" content="">
- </head>
+
+    <script type="text/javascript">
+        function showPopup() {
+            document.getElementById("popup1").style.display = "block";
+            return false;
+        }
+        function hidePopup() {
+            document.getElementById("popup1").style.display = "none";
+            return false;
+        }
+    </script>
+</head>
 <body>
-    <div class="first-screen">
-        <div class="header">
-            <img src="images/logo.png">
-            <a href="#">Invoicer</a>
+<div class="first-screen">
+    <div class="header">
+        <img src="images/logo.png">
+        <a href="#">Invoicer</a>
 
         <nav>
             <ul>
                 <li><a href="#"> Our features</a></li>
                 <li><a href="#">About us</a></li>
-                <li><a href="#">Sign up</a></li>
+                <li>
+                    <div class="container">
+                        <a onclick="showPopup()">Sign up</a>
+                    </div>
+                </li>
+
+
             </ul>
         </nav>
-        </div>
-
-        <div class="text-and-form">
-            <h1>Easiest invoices</h1>
-            <p>Never been so easy to manage your time and tasks</p>
-            <input type="text" placeholder="Email">
-            <a href="#"> Sign up</a>
-        </div>
-
-        <a id="arrow" href="#our"><img src="images/iconmain.png" align="center"></a>
-
     </div>
+
+    <div class="text-and-form">
+        <h1>Easiest invoices</h1>
+
+        <p>Never been so easy to manage your time and tasks</p>
+        <input type="text" placeholder="Email">
+        <a href="#"> Sign up</a>
+    </div>
+
+    <a id="arrow" href="#our"><img src="images/iconmain.png" align="center"></a>
+
+</div>
 <div class="features">
     <h2><a name="our"></a> Our features</h2>
+
     <div class="column-text">
         <h3><img src="images/iconpaper.png">Easy invoices that save time</h3>
-        <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
+
+        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet
+            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
     </div>
-    
+
     <div class="column-image">
         <img src="images/tab1.jpg">
     </div>
 
 </div>
 
-    <div class="tracking">
-        <div class="column-image">
-            <img src="images/tab1.jpg">
-        </div>
-
-        <div class="column-text">
-            <h3><img src="images/icontime.png">Integrated time tracking</h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
-        </div>
-
+<div class="tracking">
+    <div class="column-image">
+        <img src="images/tab1.jpg">
     </div>
 
-    <div class="applications">
-        <div class="column-text">
-            <h3><img src="images/iconphone.png">IOS & Android applications soon...</h3>
-            <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
-        </div>
+    <div class="column-text">
+        <h3><img src="images/icontime.png">Integrated time tracking</h3>
 
-        <div class="column-image">
-            <img src="images/phones.png">
-        </div>
+        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet
+            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
     </div>
+
+</div>
+
+<div class="applications">
+    <div class="column-text">
+        <h3><img src="images/iconphone.png">IOS & Android applications soon...</h3>
+
+        <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin,
+            lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet
+            nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt.</p>
+    </div>
+
+    <div class="column-image">
+        <img src="images/phones.png">
+    </div>
+</div>
 <div class="reviews">
-        <h2>User`s reviews</h2>
-        <img src="images/review1.png">
-        <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Aenean commodo ligula eget dolor."</p>
-        <h4>Andrew Brandies, CEO of invoicer</h4>
-        <img src="images/point1.png">
-        <img src="images/point2.png">
-        <img src="images/point1.png">
-        <img src="images/point1.png">
-        <img src="images/point1.png">
+    <h2>User`s reviews</h2>
+    <img src="images/review1.png">
+
+    <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. <br> Aenean commodo ligula eget dolor."</p>
+    <h4>Andrew Brandies, CEO of invoicer</h4>
+    <img src="images/point1.png">
+    <img src="images/point2.png">
+    <img src="images/point1.png">
+    <img src="images/point1.png">
+    <img src="images/point1.png">
 
 </div>
 
@@ -95,9 +125,69 @@
         <h4>info@invoicer.nl</h4>
         <h4>06 3648463</h4>
     </div>
-    
+
     <img src="images/createdby.png">
 
 </footer>
+
+<div class="popup" id="popup1">
+    <div class="content">
+        <form class="sign-up" method="get">
+            <a class="hide-popup" onclick="hidePopup()" href="#">x</a>
+
+            <h1>Sign up</h1>
+
+            <p>Username</p>
+            <input type="text">
+
+            <p>E-mail</p>
+            <input type="email">
+
+            <div class="first-column">
+                <p>Password</p>
+                <input type="password">
+            </div>
+            <div class="second-column">
+                <p>Confirm password</p>
+                <input type="password">
+            </div>
+            <hr size="1" color="lightgray">
+            <div class="first-column">
+                <p>First name</p>
+                <input type="text">
+            </div>
+            <div class="second-column">
+                <p>Last name</p>
+                <input type="text">
+            </div>
+            <div id="sex">
+                <p>Sex</p>
+                <input class="checkbox" type="radio" name="gender" value="male"> Male &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input class="checkbox" type="radio" name="gender" value="female"> Female
+            </div>
+
+            <p>City</p>
+            <select name="city">
+                <option value="empty" selected></option>
+                <option value="piter">Odessa</option>
+                <option value="krasnodar">Kyiv</option>
+                <option value="habarovsk">Kharkiv</option>
+                <option value="vladivostok">Yzhgorod</option>
+            </select>
+            <br>
+            <textarea cols="45" rows="5" name="comment">Few words about me</textarea>
+            <hr size="1" color="lightgray">
+            <input class="checkbox" type="checkbox" name="terms">I agree with <a href="#">Terms and conditions</a>
+            <br>
+            <input class="submit" type="submit" value="Register">
+            <br>
+            <input class="reset" type="reset" value="Clear">
+
+        </form>
+
+    </div>
+    </div>
+
+
 </body>
 </html>
